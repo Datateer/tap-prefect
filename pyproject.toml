@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tap-prefect"
-version = "0.1.0"
+version = "0.2.0"
 description = "`tap-prefect` is a Singer tap for prefect, built with the Meltano Singer SDK."
 authors = ["Datateer Dev"]
 keywords = [

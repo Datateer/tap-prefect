@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.0 (2023-01-24)
+### Feature
+* Add version to query ([`c6fefc6`](https://github.com/Datateer/tap-prefect/commit/c6fefc6ff07497435564f4e798950bd09457f7bc))
+
 ## v0.1.0 (2023-01-23)
 ### Feature
 * Release to pypi ([`6cf0de8`](https://github.com/Datateer/tap-prefect/commit/6cf0de881252d680658a83a428e1054ce348237f))
