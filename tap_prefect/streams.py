@@ -37,6 +37,7 @@ class FlowRunsStream(PrefectStream):
         flow {
             id
             name
+            version
             project {
                 id
                 name
