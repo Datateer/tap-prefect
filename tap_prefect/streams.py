@@ -3,7 +3,7 @@
 from pathlib import Path
 from typing import Any, Dict, Optional, Union, List, Iterable
 
-from singer_sdk.typing import PropertiesList, Property, StringType, ObjectType, DateTimeType, ArrayType
+from singer_sdk.typing import PropertiesList, Property, StringType, ObjectType, DateTimeType, ArrayType, IntegerType
 
 # from singer_sdk import typing as th  # JSON Schema typing helpers
 
@@ -23,6 +23,7 @@ class FlowRunsStream(PrefectStream):
     schema = PropertiesList(
         Property("id", StringType, required=True),
         Property("name", StringType, required=True),
+        Property("version", IntegerType, required=True),
         Property(
             "project", ObjectType(Property("id", StringType, required=True), Property("name", StringType, required=True)), required=True
         ),
