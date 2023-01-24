@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.2.1 (2023-01-24)
+### Fix
+* Bug in property configuration ([`078e666`](https://github.com/Datateer/tap-prefect/commit/078e66673355a787d7f3811274b46152fa0a9dd5))
+
 ## v0.2.0 (2023-01-24)
 ### Feature
 * Add version to query ([`c6fefc6`](https://github.com/Datateer/tap-prefect/commit/c6fefc6ff07497435564f4e798950bd09457f7bc))
